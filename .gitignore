@@ -1,0 +1,160 @@
+############################
+# AUTODESK / CAD FILES
+############################
+
+# Autodesk backup folders (Inventor, AutoCAD, Vault)
+**/OldVersions/
+**/OldVersions/**
+
+# Inventor backups & temp files
+*.bak
+*.old
+*.tmp
+*.log
+*.err
+*.ipj.old
+*.ipt.old
+*.iam.old
+*.idw.old
+*.dwg.old
+
+# Inventor lock & temp
+*.lck
+*.tmp
+~$*
+
+# AutoCAD temporary & lock files
+*.ac$
+*.sv$
+*.dwl
+*.dwl2
+
+# Vault local working folders
+.vault/
+.vaultcache/
+.vaultworkspace/
+
+# Autodesk Design Data (regenerated automatically)
+Design Data/
+**/Design Data/
+
+# Content Center cache (large, auto-generated)
+Content Center Files/
+**/Content Center Files/
+
+# Fusion / generic Autodesk exports
+*.f3d.old
+*.f2d.old
+
+
+############################
+# WINDOWS / OS FILES
+############################
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+desktop.ini
+
+$RECYCLE.BIN/
+System Volume Information/
+
+
+############################
+# GENERAL TEMP FILES
+############################
+
+*.tmp
+*.swp
+*.swo
+*.~*
+*.autosave
+*.cache
+
+
+############################
+# LOG FILES
+############################
+
+*.log
+logs/
+**/logs/
+
+
+############################
+# PYTHON
+############################
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+
+
+############################
+# NODE / JAVASCRIPT
+############################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+############################
+# .NET / VISUAL STUDIO
+############################
+
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+
+############################
+# BUILD / DIST
+############################
+
+build/
+dist/
+out/
+
+
+############################
+# IDEs & EDITORS
+############################
+
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+
+############################
+# ARCHIVES (OPTIONAL)
+############################
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+
+############################
+# EXPLICITLY ALLOW
+############################
+
+# Keep .gitkeep files for empty folders
+!.gitkeep
